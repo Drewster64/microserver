@@ -1,0 +1,7 @@
+POST http://127.0.0.1:5000/createUser
+content-type: application/json
+
+{
+    "nombre":"John Doe",
+    "email": "jd1965@gmail.com"
+}
