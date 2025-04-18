@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Tareas de Trabajo{% endblock %}
+
+{% block content %}
+<h1 class="titlefont"><u>Nuestras Tareas de Trabajo</u></h1>
+<ul>
+  {% for tarea in tareas %}
+    <li class="letter">{{ tarea }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

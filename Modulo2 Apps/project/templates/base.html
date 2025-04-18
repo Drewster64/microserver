@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Mi Aplicación{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header class="header-image"> <img src="{{ url_for('static', filename='warehousebanner.webp') }}" alt="Banner de Almacén" class="header-image"></header> 
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer><img src="{{ url_for('static', filename='warehousefooter.jpg') }}" alt="Footer de Almacén" class="footer-image footer"></footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    background-color: lightsalmon;
+    margin: 0;
+    padding: 15;
+}
+.titlefont {
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.letter {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+}
+.header-image {
+    width: 100%;
+    height: 150px; /* ajusta aquí la altura deseada */
+    object-fit: cover; /* asegura que se recorte y no se deforme */
+}
+.footer-image {
+    width: 100%;
+    height: 150; /* o ajusta a lo que necesites */
+    object-fit: cover;
+}
+
