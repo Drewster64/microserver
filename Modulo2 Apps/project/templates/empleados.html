@@ -1,0 +1,25 @@
+{% extends 'base2.html' %}
+
+{% block title %}Empleados - Carpintería{% endblock %}
+
+{% block content %}
+    <h2 class="titlefont">Lista de Empleados</h2>
+    <table>
+        <thead>
+            <tr class="letter">
+                <th>Nombre</th>
+                <th>Rol</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody class="letter">
+            {% for empleado in empleados %}
+                <tr>
+                    <td>{{ empleado.nombre }}</td>
+                    <td>{{ empleado.rol }}</td>
+                    <td><img src="{{ url_for('static', filename=empleado.foto) }}" alt="Foto de {{ empleado.nombre }}" class="employeePic"></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
