@@ -14,7 +14,7 @@ login_manager.init_app(app)
 usuarios = {
     "admin@tbtmr.com": {"password": "admin123", "rol": "admin"},
     "tester@tbtmr.com": {"password": "tester123", "rol": "tester"},
-    "employee@tbtmr.com": {"password": "employee123", "rol": "user"},
+    "employee@tbtmr.com": {"password": "employee123", "rol": "employee"},
     "user@tbtmr.com": {"password": "user123", "rol": "user"}
 }
 
