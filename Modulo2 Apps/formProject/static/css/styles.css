@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px; /* Ajuste el tamaño del contenedor para hacerlo más amplio */
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2rem; /* Aumente el tamaño del título */
+}
+
+/* Estilo de formulario */
+.process-form {
+  display: grid;
+  gap: 20px; /* Aumenté el espacio entre los elementos del formulario */
+  margin-bottom: 20px;
+}
+
+/* Estilos para los campos de texto y contraseñas */
+.process-form input[type="text"],
+.process-form input[type="password"] {
+  flex: 1;
+  padding: 12px; /* Aumente el padding para que los campos sean más cómodos */
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo del botón de login */
+.btn {
+  padding: 12px 16px; /* Aumente el tamaño del botón */
+  font-size: 1rem; /* Aumente el tamaño de la fuente */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* El botón ocupa todo el ancho disponible */
+}
+
+/* Estilo para el botón principal (login) */
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Estilo para el botón secundario (para logout u otros) */
+.btn-secondary {
+  background-color: #e9e9e9;
+  color: black;
+  width: auto; /* El botón secundario no ocupará todo el ancho */
+}
+
+/* Estilo de formulario en línea, por si se necesita usarlo en otras partes */
+.inline-form {
+  display: inline;
+  margin: 0;
+}
+
+/* Párrafos */
+p {
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Estilos específicos para el formulario de login */
+.login-form {
+  margin-top: 40px;
+}
+
+/* Estilos para la página de home */
+.home-page {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.home-page h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Ajustes adicionales */
+.header-image img, .footer img {
+  width: 100%;
+  height: auto;
+}
