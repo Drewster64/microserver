@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenido Usuario</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="user-page">
+    <div class="overlay">
+        <h1>¡Hola {{ usuario }}!</h1>
+        <p class="letter">Bienvenido a tu página personalizada de usuario. Aquí puedes ver tu contenido exclusivo:</p>
+
+        <div class="gallery">
+            <img src="https://www.funktasy.com/wp-content/uploads/2024/08/Zayn-Malik.jpg" alt="foto 1">
+            <img src="https://www.tjtoday.org/wp-content/uploads/2024/01/tate-mcrae-scaled.webp" alt="foto 2">
+            <img src="https://www.liveabout.com/thmb/8YfN0_qJHTtAFg95CnRtGsORpGo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/justin-bieber-56a96cf43df78cf772a6ddc7.jpg" alt="foto 3">
+        </div>
+    </div>
+</body>
+</html>

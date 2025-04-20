@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel del Developer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="user-page">
+    <div class="content">
+        <h1>Bienvenido, {{ usuario }}</h1>
+        <h2>Tareas a realizar por los empleados hoy</h2>
+        <ul class="tareas">
+            <li>Añadir artistas</li>
+            <li>Añadir canciones</li>
+            <li>Editar álbumes</li>
+            <li>Revisar lista de usuarios</li>
+        </ul>
+    </div>
+</body>
+</html>
