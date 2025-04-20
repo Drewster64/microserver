@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Acceso Denegado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="user-page">
+    <h1>403</h1>
+    <p class="letter">¡Acceso denegado! No tienes permiso para ver esta página.</p>
+    <a href="{{ url_for('home') }}">Volver al inicio</a>
+</body>
+</html>
